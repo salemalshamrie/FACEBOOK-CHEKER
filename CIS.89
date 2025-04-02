@@ -1,56 +1,9 @@
+#include <iostream>
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>موقعي</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            text-align: center;
-        }
-        nav {
-            background-color: #f0f0f0;
-            padding: 10px;
-        }
-        nav a {
-            margin: 0 10px;
-            text-decoration: none;
-        }
-        section {
-            padding: 20px;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            text-align: center;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>مرحباً بكم في موقعي</h1>
-    </header>
-    <nav>
-        <a href="#">الرئيسية</a>
-        <a href="#">حول</a>
-        <a href="#">تواصل</a>
-    </nav>
-    <section>
-        <?php
-            // يمكنك إضافة محتوى PHP ديناميكي هنا
-            echo "<p>هذا هو محتوى الصفحة الرئيسية.</p>";
-        ?>
-    </section>
-    <footer>
-        <p>&copy; <?php echo date("Y"); ?> موقعي</p>
-    </footer>
-</body>
-</html>
+int main() {
+    // طباعة عبارة "مرحباً بالعالم!" على الشاشة
+    std::cout << "مرحباً بالعالم!" << std::endl;
+
+    // إنهاء البرنامج بنجاح
+    return 0;
+}
